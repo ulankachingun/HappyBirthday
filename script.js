@@ -8,7 +8,7 @@ const yesButton = document.getElementById('yesButton');
 const noButton = document.getElementById('noButton');
 const finalContent = document.getElementById('finalContent');
 
-const images = ['/pics/Thinking cat.jpg', '/pics/Asking cat.png'];
+const images = ['/pics/Thinking cat.JPG', '/pics/Asking cat.PNG'];
 let imageIndex = 0;
 
 submitName.addEventListener('click', () => {
@@ -29,7 +29,7 @@ submitName.addEventListener('click', () => {
 
 yesButton.addEventListener('click', () => {
     buttonsContainer.style.display = 'none';
-    currentImage.src = '/pics/Happy cat.gif';
+    currentImage.src = '/pics/Happy cat.GIF';
     setTimeout(() => {
         imageContainer.style.display = 'none';
         finalContent.style.display = 'block';
