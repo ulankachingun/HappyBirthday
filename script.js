@@ -8,7 +8,7 @@ const yesButton = document.getElementById('yesButton');
 const noButton = document.getElementById('noButton');
 const finalContent = document.getElementById('finalContent');
 
-const images = ['pics/Thinking.jpg', './pics/Asking.PNG'];
+const images = ['../pics/Thinking.jpg', './pics/Asking.PNG'];
 let imageIndex = 0;
 
 submitName.addEventListener('click', () => {
