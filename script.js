@@ -8,7 +8,7 @@ const yesButton = document.getElementById('yesButton');
 const noButton = document.getElementById('noButton');
 const finalContent = document.getElementById('finalContent');
 
-const images = ['pics/Thinking.jpg', 'pics/Asking.PNG'];
+const images = ['pics/Thinking.jpg', 'pics/Asking.png'];
 let imageIndex = 0;
 
 submitName.addEventListener('click', () => {
@@ -33,7 +33,7 @@ yesButton.addEventListener('click', () => {
     setTimeout(() => {
         imageContainer.style.display = 'none';
         finalContent.style.display = 'block';
-    }, 2500);
+    }, 4000);
 });
 
 noButton.addEventListener('click', () => {
